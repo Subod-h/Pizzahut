@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+}
+
+
+.logo {
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 200px;
+    padding: auto;
+}
+
+.navbar {
+    border: 1px solid lightgrey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.nav-link {
+    border-right: 1px solid lightgray;
+    padding: 10px 80px !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+}
+
+.card {
+    height: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row1 {
+    position: absolute;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.cardbtn {
+    /* position: absolute;
+    margin-bottom: 10px;
+    align-items: end; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    line-height: 28px;
+    font-size: 1.1em;
+}
+
+.my {
+    border-left: 1px solid lightgray;
+    background-color: rgb(144, 21, 21);
+    background-image: url('./images/pizza-hut-logo-1024x866.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.left-border{
+    border-left: 1px solid lightgray;
+
+}
+
+.active:active {
+    background-color: rgb(144, 21, 21);
+    color: rgb(144, 21, 21);
+
+}
+.active:hover{
+    background-color: rgb(144, 21, 21);
+    background-image: url('./images/pizza-hut-logo-1024x866.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 465px;
+}
+
+.f1,
+.f2,
+.f3,
+.f4 {
+    margin: 30px 0 0;
+    line-height: 2;
+    font-size: 1.07rem;
+}
+
+.f1 {
+
+    padding: 0px;
+}
+
+ul li,
+ol li {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0px;
+    font-size: .9em;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footerOl {
+    margin-top: 55px;
+    display: flex;
+    max-width: 1080px;
+    padding: 15px 15px 45px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul,
+ol,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-btns {
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+.ft-btn {
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 48px;
+}
+
+.ft-logo {
+    font-size: 1.5em;
+}
+
+.btn-text1 {
+    font-size: .7em;
+    display: flex;
+    align-items: start;
+    margin-left: -20px;
+}
+
+.btn-text2 {
+    margin-top: -44px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    margin-left: -20px;
+}
+
+.feedback-follow {
+    display: inline-flex;
+    margin-left: 112px;
+}
+
+.follow {
+    margin-left: 500px;
+}
+
+.follow-icons {
+    margin-top: -10px;
+    font-size: 1.2em;
+}
+
+.bi {
+    padding-right: 25px;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: .8em;
+    color: grey;
+}
